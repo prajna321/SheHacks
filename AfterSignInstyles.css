@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #28181F;
+}
+
+.bg_container{
+    background-image: url('Desktop\ -\ 4.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 2500px;
+    width: 100vw;
+}
+
+/* media queries */
+/* @media only screen and (max-width: 768px){
+    .bg_container{
+        height: 2500px
+    }
+} */
+
+/* @media only screen and (max-width: 600px) and (min-width: 400px)  {...} */
+
+@media only screen and (max-width: 360px){
+    .bg_container{
+        height: 500px
+    }
+   
+}
+@media only screen and (max-width: 500px) and (min-width: 360px){
+    .bg_container{
+        height: 700px
+    }
+   
+}
+@media only screen and (max-width: 650px) and (min-width: 500px){
+    .bg_container{
+        height: 1000px
+    }
+   
+}
+@media only screen and (max-width: 800px) and (min-width: 650px){
+    .bg_container{
+        height: 1200px
+    }
+   
+}
+@media only screen and (max-width: 950px) and (min-width: 800px){
+    .bg_container{
+        height: 1400px
+    }
+   
+}
+@media only screen and (max-width: 1100px) and (min-width: 950px){
+    .bg_container{
+        height: 1600px
+    }
+   
+}
+@media only screen and (max-width: 1250px) and (min-width: 1100px){
+    .bg_container{
+        height: 2000px
+    }
+   
+}
+@media only screen and (max-width: 1500px) and (min-width: 1250px){
+    .bg_container{
+        height: 2200px
+    }
+   
+}
+@media only screen and (max-width: 2000px) and (min-width: 1500px){
+    .bg_container{
+        height: 2600px
+    }
+   
+}
